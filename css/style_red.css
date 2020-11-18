@@ -8,12 +8,6 @@ body {
 	min-width: 1200px;
 }
 
-h1 {
-	font-size: 32px;
-	line-height: 64px;
-	font-weight: 800;
-}
-
 .clearfloat:after {
 	display: block;
 	content: "";
@@ -41,7 +35,7 @@ h1 {
 	width: 100%;
 	height: 32px;
 	line-height: 32px;
-	background: #0b3e70;
+	background: #700b0b;
 }
 
 .top {
@@ -111,7 +105,7 @@ h1 {
 	line-height: 34px;
 	height: 34px;
 	display: inline-block;
-	border: 1px solid #0b3e70;
+	border: 1px solid #700b0b;
 }
 
 .search input {
@@ -134,7 +128,7 @@ h1 {
 	color: #FFFFFF;
 	line-height: 34px;
 	text-align: center;
-	background: #0b3e70;
+	background: #700b0b;
 	cursor: pointer;
 }
 
@@ -151,7 +145,7 @@ h1 {
 
 .edit a {
 	font-size: 14px;
-	color: #0b3e70;
+	color: #700b0b;
 	padding-left: 20px;
 	background-image: url(../images/phone.png);
 	background-position: 0;
@@ -166,7 +160,7 @@ h1 {
 	width: 118px;
 	line-height: 34px;
 	height: 34px;
-	border: 1px solid #0b3e70;
+	border: 1px solid #700b0b;
 	display: inline-block;
 }
 
@@ -176,12 +170,12 @@ h1 {
 	height: 100%;
 	line-height: 34px;
 	font-size: 14px;
-	color: #0b3e70;
+	color: #700b0b;
 	text-align: center;
 }
 
 .univer a:hover {
-	background: #0b3e70;
+	background: #700b0b;
 	color: #FFFFFF;
 }
 
@@ -189,7 +183,7 @@ h1 {
 .nav_box {
 	width: 100%;
 	height: 54px;
-	background: #0b3e70;
+	background: #700b0b;
 	position: relative;
 	z-index: 100;
 }
@@ -230,11 +224,11 @@ h1 {
 }
 
 .nav .active {
-	background: #185c9e;
+	background: #9e1818;
 }
 
 .nav li>a:hover {
-	background: #185c9e;
+	background: #9e1818;
 }
 
 .nav_down {
@@ -243,16 +237,16 @@ h1 {
 	position: absolute;
 	right: 0;
 	top: 54px;
-	background: #0b3e70;
+	background: #700b0b;
 	width: 200px;
 }
 
 .nav_down p+p {
-	border-top: 1px solid #185c9e;
+	border-top: 1px solid #9e1818;
 }
 
 .nav_down a:hover {
-	background: #185c9e;
+	background: #9e1818;
 }
 
 /*nav*/
@@ -319,7 +313,8 @@ h1 {
 	line-height: 35px;
 	text-align: center;
 	padding: 17px 0 16px;
-	background-image: url(../images/menbj.jpg);
+	/*background-image: url(../images/menbj.jpg);*/
+	background-color: #9e1818;
 	background-repeat: no-repeat;
 }
 
@@ -375,13 +370,13 @@ h1 {
 
 .men_top a:hover {
 	background: #FFFFFF;
-	color: #0b3e70;
+	color: #700b0b;
 	font-weight: 900;
 }
 
 .men_top .men_btn {
 	background: #FFFFFF;
-	color: #0b3e70;
+	color: #700b0b;
 	font-weight: 900;
 	margin: 0 20px 0 38px;
 }
@@ -426,7 +421,7 @@ h1 {
 }
 
 .tech {
-	background-image: url(../images/techbj.jpg);
+	background-image: url(../images/festival/techbj.jpg);
 	width: 158px;
 	height: 220px;
 	padding: 10px;
@@ -466,7 +461,7 @@ h1 {
 }
 
 .techer:hover .te_name {
-	color: #0b3e70;
+	color: #700b0b;
 }
 
 .tech_btn {
@@ -483,7 +478,7 @@ h1 {
 	cursor: pointer;
 	transition: all .3s ease-in;
 	left: 0;
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 }
@@ -492,19 +487,19 @@ h1 {
 	cursor: pointer;
 	transition: all .3s ease-in;
 	right: 0;
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: -40px 0px;
 }
 
 .tech_btn.tech_prev:hover {
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: 0px -40px;
 }
 
 .tech_btn.tech_next:hover {
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: -40px -40px;
 }
@@ -520,19 +515,19 @@ h1 {
 	width: 18px;
 	height: 18px;
 	margin: 0 7px;
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: 3px -166px;
 }
 
 .tech_num span:hover {
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: -40px -168px;
 }
 
 .tech_num span.active {
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: -40px -168px;
 }
@@ -671,7 +666,7 @@ h1 {
 
 .up_time {
 	font-size: 14px;
-	color: #0b3e70;
+	color: #700b0b;
 	margin-top: 14px;
 }
 
@@ -688,7 +683,7 @@ h1 {
 	left: -60px;
 	cursor: pointer;
 	transition: all .3s ease-in;
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: 0px -80px;
 }
@@ -697,19 +692,19 @@ h1 {
 	right: -60px;
 	cursor: pointer;
 	transition: all .3s ease-in;
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: -40px -80px;
 }
 
 .rece_btn.rece_prev:hover {
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: 0px -128px;
 }
 
 .rece_btn.rece_next:hover {
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: -40px -128px;
 }
@@ -845,19 +840,19 @@ h1 {
 	width: 18px;
 	height: 18px;
 	margin: 0 7px;
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: 3px -166px;
 }
 
 .hot_num span:hover {
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: -40px -168px;
 }
 
 .hot_num span.active {
-	background-image: url(../images/icon_bj.png);
+	background-image: url(../images/festival/icon_bj.png);
 	background-repeat: no-repeat;
 	background-position: -40px -168px;
 }
@@ -888,7 +883,7 @@ h1 {
 .pap_top .active {
 	color: #FFFFFF;
 	font-weight: 900;
-	background: #0b3e70;
+	background: #700b0b;
 	border-radius: 5px;
 }
 
@@ -976,18 +971,18 @@ h1 {
 }
 
 .pap_tit:hover a {
-	color: #0b3e70;
+	color: #700b0b;
 }
 
 .pap_tit:hover em {
-	background: #0b3e70;
+	background: #700b0b;
 }
 
 /*论文著作*/
 .footer {
 	width: 100%;
 	height: 150px;
-	background: #0b3e70;
+	background: #700b0b;
 }
 
 .foot {
@@ -1100,8 +1095,8 @@ h1 {
 	vertical-align: middle;
 	font-size: 18px;
 	font-weight: 900;
-	color: #0b3e70;
-	border-bottom: 2px solid #0b3e70;
+	color: #700b0b;
+	border-bottom: 2px solid #700b0b;
 	padding-bottom: 10px;
 	margin-right: 2px;
 	display: inline-block;
@@ -1127,7 +1122,7 @@ h1 {
 
 .locat em {
 	vertical-align: middle;
-	color: #0b3e70;
+	color: #700b0b;
 }
 
 .locat a {
@@ -1161,7 +1156,7 @@ h1 {
 }
 
 .coll_list a:hover {
-	background: #0b3e70;
+	background: #700b0b;
 	color: #FFFFFF;
 	font-weight: 900;
 }
@@ -1179,7 +1174,7 @@ h1 {
 	height: 65px;
 	line-height: 65px;
 	text-align: center;
-	background: #0b3e70;
+	background: #700b0b;
 	margin-bottom: 5px;
 }
 
@@ -1214,7 +1209,7 @@ h1 {
 }
 
 .aca_list a:hover {
-	color: #0b3e70;
+	color: #700b0b;
 	text-decoration: underline
 }
 
@@ -1293,7 +1288,7 @@ h1 {
 
 .aca_work {
 	font-size: 14px;
-	color: #0b3e70;
+	color: #700b0b;
 	text-align: center;
 	margin-top: 10px;
 	height: 21px;
@@ -1305,7 +1300,7 @@ h1 {
 }
 
 .acade_list li:hover .aca_name {
-	color: #0b3e70;
+	color: #700b0b;
 }
 
 /*学院列表2*/
@@ -1331,7 +1326,7 @@ h1 {
 }
 
 .home_page:hover {
-	color: #0b3e70;
+	color: #700b0b;
 }
 
 .page a {
@@ -1348,12 +1343,12 @@ h1 {
 }
 
 .page_btn:hover {
-	background: #0b3e70;
+	background: #700b0b;
 	color: #FFFFFF;
 }
 
 .page em {
-	background: #0b3e70;
+	background: #700b0b;
 	color: #FFFFFF;
 	margin: 0 6px;
 	width: 26px;
@@ -1380,14 +1375,14 @@ h1 {
 
 .sub_top {
 	font-size: 18px;
-	color: #0b3e70;
+	color: #700b0b;
 	font-weight: 900;
 	line-height: 18px;
 	margin: 33px auto;
 }
 
 .sub_top span {
-	border-left: 2px solid #0b3e70;
+	border-left: 2px solid #700b0b;
 	padding-left: 10px;
 }
 
@@ -1420,20 +1415,20 @@ h1 {
 }
 
 .sub_list li:hover {
-	border: 1px solid #0b3e70;
+	border: 1px solid #700b0b;
 }
 
 .sub_list li:hover a {
-	background: #0b3e70;
+	background: #700b0b;
 	color: #FFFFFF;
 }
 
 .sub_list li.active {
-	border: 1px solid #0b3e70;
+	border: 1px solid #700b0b;
 }
 
 .sub_list li.active a {
-	background: #0b3e70;
+	background: #700b0b;
 	color: #FFFFFF;
 }
 
@@ -1464,20 +1459,20 @@ h1 {
 }
 
 .obj_list a:hover {
-	color: #0b3e70;
+	color: #700b0b;
 	text-decoration: underline;
 }
 
 .obj_list li:hover {
-	color: #0b3e70;
+	color: #700b0b;
 }
 
 .obj_list li.active {
-	color: #0b3e70;
+	color: #700b0b;
 }
 
 .obj_list li.active a {
-	color: #0b3e70;
+	color: #700b0b;
 	text-decoration: underline
 }
 
@@ -1559,13 +1554,13 @@ h1 {
 }
 
 .tech_down li:hover {
-	background: #0b3e70;
+	background: #700b0b;
 	color: #FFFFFF;
 	cursor: pointer;
 }
 
 .tech_down li.active {
-	background: #0b3e70;
+	background: #700b0b;
 	color: #FFFFFF;
 }
 
@@ -1621,12 +1616,12 @@ h1 {
 
 .tech_rig li:hover a {
 	color: #FFFFFF;
-	background: #0b3e70;
+	background: #700b0b;
 }
 
 .tech_rig li.active a {
 	color: #FFFFFF;
-	background: #0b3e70;
+	background: #700b0b;
 }
 
 .tech_rig input {
@@ -1650,7 +1645,7 @@ h1 {
 	font-size: 12px;
 	color: #ffffff;
 	text-align: center;
-	background: #0b3e70;
+	background: #700b0b;
 	cursor: pointer;
 	vertical-align: middle;
 	display: inline-block;
@@ -1730,7 +1725,7 @@ h1 {
 }
 
 .down_load a:hover {
-	color: #0b3e70;
+	color: #700b0b;
 }
 
 /*关于主页*/
@@ -1771,11 +1766,11 @@ h1 {
 	display: block;
 	width: 6px;
 	height: 6px;
-	background: #0b3e70;
+	background: #700b0b;
 	left: 16px;
 	top: 27px;
 }
 
 .resu_list a:hover {
-	color: #0b3e70;
+	color: #700b0b;
 }

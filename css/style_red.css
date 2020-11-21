@@ -1,3 +1,18 @@
+::selection {
+	background: #700b0b;
+	color: #ffffff;
+}
+
+::-moz-selection {
+	background: #700b0b;
+	color: #ffffff;
+}
+
+::-webkit-selection {
+	background: #700b0b;
+	color: #ffffff;
+}
+
 * {
 	margin: 0;
 	padding: 0;

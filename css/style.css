@@ -1779,3 +1779,26 @@ h1 {
 .resu_list a:hover {
 	color: #0b3e70;
 }
+
+.commentary {
+	width: 1150px;
+	margin: 40px auto;
+	background-image: url(../images/paper.jpg);
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	padding: 40px;
+}
+
+.commentary .commentary_text {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.commentary .commentary_text h3{
+	font-family: 微软雅黑;
+}
+
+.commentary .commentary_text h1{
+	font-family: 微软雅黑;
+	line-height: 48px;
+}

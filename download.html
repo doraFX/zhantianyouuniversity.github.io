@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>关于主页</title>
+		<title>资源下载</title>
 		<link rel="shortcut icon" href="images/logo.ico" type="image/png">
 		<link rel="stylesheet" type="text/css" href="css\public.css">
 		<link rel="stylesheet" type="text/css" href="css\style.css">
@@ -27,7 +27,7 @@
 		</div>
 		<div class="head clearfloat">
 			<div class="logo">
-				<a href="index.html"><img src="images\logo.png"></a>
+				<a href=""><img src="images\logo.png"></a>
 			</div>
 			<div class="sear_box clearfloat">
 				<div class="search">
@@ -44,15 +44,15 @@
 				<ul class="clearfloat">
 					<li><a href="index.html">首页</a></li>
 					<li><a href="faculty.html">学院列表</a></li>
-					<li><a href="index.html">学科列表</a></li>
-					<li><a href="download.html">资源下载</a></li>
-					<li class="active"><a href="">关于主页</a></li>
+					<li><a href="subject.html">学科列表</a></li>
+					<li class="active"><a href="download.html">资源下载</a></li>
+					<li><a href="about.html">关于主页</a></li>
 					<li class="nav_more">
 						<img src="images\menu.png">
 						<div class="nav_down">
-							<p><a href="index.html">学院列表</a></p>
-							<p><a href="index.html">教师查询</a></p>
-							<p><a href="index.html">学院列表</a></p>
+							<p><a href="">学院列表</a></p>
+							<p><a href="">教师查询</a></p>
+							<p><a href="">学院列表</a></p>
 						</div>
 					</li>
 				</ul>
@@ -66,39 +66,31 @@
 		<div class="coll_top">
 			<div class="current clearfloat">
 				<div class="curr_name">
-					<span>关于主页 / </span><em> ABOUT THE HOME PAGE</em>
+					<span>资源下载 / </span><em> DOWNLOAD</em>
 				</div>
 				<div class="locat">
-					<span>您当前的位置：</span><a href="">首页 &gt;&gt;</a><em>关于主页</em>
+					<span>您当前的位置：</span><a href="index.html">首页 &gt;&gt;</a><em>资源下载</em>
 				</div>
 			</div>
 		</div>
-
-		<div class="about_box">
-			<div class="about_pic">
-				<img src="images\temp\about.jpg">
-			</div>
-			<div class="about_text">
-				<p>战天佑大学是一所优秀的现代化高校，建校于2020年，校长是德高望重的战天佑先生。</p>
-
-				<p>正如战天佑校长在战天佑大学第一届开学典礼致辞所说的那样：“……呃……那个……其实……就是……呃……那个……我想说……嗯？是！对！……”战天佑校长对首批战天佑大学入学的新生给予了很高的期望。战天佑大学将始终秉承着“德才兼备，教书育板凳狗”的教育理念，始终坚守“为学生服务”的宗旨。努力办成一所十年名校。</p>
-
-				<p>战天佑大学现有板凳狗114514条，拥有完备健全的板凳狗研究体系与高精尖的板凳狗科研中心。同时我校还积极自主研发，现有关于板凳狗的专利数量达到1919件，其中810件被评为优秀专利。我校现有学院21个，本科专业94个，科研项目233个，教学队伍46支。</p>
-
-				<p>继往开来，再展宏图。学校将坚持科学发展、突出办学特色、推进改革创新、扩大开放合作、加强内涵提升，努力建设成为板凳狗科技创新与高层次人才培养的重要基地，建设成为特色鲜明、开放式、高水平教学研究型板凳狗大学，为世界板凳狗发展产业和地方经济社会发展做出新的更大贡献。</p>
-			</div>
-			<div class="about_time">
-				<span>2018年8月</span>
-			</div>
-			<div class="down_load">
-				<a href="public/about/ZTYU.txt">校名下载</a><span>|</span><a href="public/about/flag.jpg" download>校旗下载</a><span>|</span><a href="public/about/ZTYU.png">校徽下载</a>
-			</div>
+		<div class="resu_list">
+			<ul>
+				<li class="clearfloat">
+					<em></em><a href="public/docs/智能可塑，灵魂无价.html">战天佑发表千字社论《智能可塑，灵魂无价》原文下载</a> <span>2020-11-22</span>
+				</li>
+				
+			</ul>
 		</div>
-
+		<!--
+		<div class="page">
+			<span>共155条</span><span>1/24</span><a href="" class="home_page">首页</a><a href="" class="page_btn">上一页</a><a href=""
+			 class="page_btn">下一页</a><a href="" class="home_page">尾页</a><span>转到 </span><input type="text"> <span>页</span><em>GO</em>
+		</div>
+		-->
 		<div class="footer">
 			<div class="foot clearfloat">
 				<div class="foot_logo">
-					<img src="images\foot_logo.png">
+					<!--<img src="images\foot_logo.png">-->
 				</div>
 				<div class="copy">
 					<p>版权所有 </p>
@@ -123,6 +115,13 @@
 		</div>
 
 	</body>
-
+	<script>
+		$(".resu_list li").each(function() {
+			var index = $(this).index();
+			if (index % 2 == 0) {
+				$(this).addClass("on");
+			}
+		})
+	</script>
 
 </html>

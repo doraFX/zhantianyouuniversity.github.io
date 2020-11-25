@@ -1817,3 +1817,37 @@ h1 {
 	font-family: 微软雅黑;
 	line-height: 48px;
 }
+
+.friends{
+	width: 1150px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.friends_ul {
+	display: inline-flex;
+	margin: 5px 0;
+}
+
+.friends_ul p{
+	font-size: 15px;
+	color: #476e94;
+}
+
+.friends_div {
+	position: relative;
+	width: 191.666px;
+}
+
+.friens_title{
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.friends_text{
+	padding: 5px 520px;
+	margin: 2px;
+	color: #185C9E;
+	background-color: #fafafa;
+	border-radius: 4px;
+}

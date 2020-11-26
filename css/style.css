@@ -1809,16 +1809,16 @@ h1 {
 	margin-right: 50px;
 }
 
-.commentary .commentary_text h3{
+.commentary .commentary_text h3 {
 	font-family: 微软雅黑;
 }
 
-.commentary .commentary_text h1{
+.commentary .commentary_text h1 {
 	font-family: 微软雅黑;
 	line-height: 48px;
 }
 
-.friends{
+.friends {
 	width: 1150px;
 	margin: 20px auto;
 	padding: 20px;
@@ -1830,12 +1830,12 @@ h1 {
 	margin: 5px 0;
 }
 
-.friends_ul p{
+.friends_ul p {
 	font-size: 15px;
 	color: #476e94;
 }
 
-.friends_ul p:hover{
+.friends_ul p:hover {
 	font-size: 15px;
 	color: #6198cb;
 	transition: 0.1s;
@@ -1846,20 +1846,27 @@ h1 {
 	width: 191.666px;
 }
 
-.friens_title{
+.friens_title {
 	margin-bottom: 10px;
 	text-align: center;
 }
 
-.friends_text{
+.friends_text {
 	padding: 5px 520px;
 	margin: 2px;
 	color: #185C9E;
-	
+
 	border-radius: 4px;
 }
 
 .video {
 	width: 1920px;
-	height: 754px;
+	height: 100%;
+}
+
+@media (max-width: 1200px) {
+	.video {
+		width: 1200px;
+		height: 100%;
+	}
 }

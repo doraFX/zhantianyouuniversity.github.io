@@ -1835,6 +1835,12 @@ h1 {
 	color: #476e94;
 }
 
+.friends_ul p:hover{
+	font-size: 15px;
+	color: #6198cb;
+	transition: 0.1s;
+}
+
 .friends_div {
 	position: relative;
 	width: 191.666px;
@@ -1851,4 +1857,9 @@ h1 {
 	color: #185C9E;
 	
 	border-radius: 4px;
+}
+
+.video {
+	width: 1920px;
+	height: 754px;
 }

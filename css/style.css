@@ -1245,9 +1245,9 @@ h1 {
 
 .acade_list li {
 	float: left;
-	width: 244px;
+	width: 100%;
 	margin-top: 44px;
-	height: 380px;
+	height: auto;
 	margin-left: 72px;
 	border: 1px solid #e5e5e5;
 	padding: 21px 0 25px;
@@ -1288,31 +1288,78 @@ h1 {
 	margin-top: 16px;
 }
 
+.aca{
+	display: flex;
+}
+
+.aca_1{
+	width: 80%;
+}
+
+.aca_2{
+	width: 20%;
+}
+
 .aca_name {
 	transition: all .3s ease-in;
 	font-size: 18px;
 	color: #404040;
 	font-weight: 900;
-	text-align: center;
+	text-align: left;
 	margin-top: 10px;
+	left: 24px;
+	position: relative;
 }
 
 .aca_job {
 	font-size: 14px;
 	color: #8b8b8b;
-	text-align: center;
+	text-align: left;
 	margin-top: 3px;
 	height: 21px;
 	overflow: hidden;
+	left: 24px;
+	position: relative;
 }
 
 .aca_work {
 	font-size: 14px;
 	color: #0b3e70;
-	text-align: center;
+	text-align: left;
 	margin-top: 10px;
 	height: 21px;
 	overflow: hidden;
+	left: 24px;
+	position: relative;
+}
+
+.aca_detail {
+	font-size: 14px;
+	color: #686868;
+	text-align: left;
+	margin-top: 3px;
+	height: 21px;
+	overflow: hidden;
+	left: 24px;
+	position: relative;
+}
+
+.aca_price {
+	text-align: center;
+	color: #ffffff;
+	top: 50%;
+	left: 50%;
+	position: relative;
+	transform: translate3d(-50% ,-50% ,0);
+	background-color: #0B3E70;
+	width: 100px;
+	height: 46px;
+	line-height: 46px;
+}
+
+.aca_price :hover{
+	background-color: #185C9E;
+	transition: 0.5s;
 }
 
 .acade_list {
@@ -1399,6 +1446,14 @@ h1 {
 	font-weight: 900;
 	line-height: 18px;
 	margin: 33px auto;
+}
+
+.sub_top2 {
+	font-size: 18px;
+	color: #0b3e70;
+	font-weight: 900;
+	line-height: 18px;
+	margin: 33px auto 0 auto;
 }
 
 .sub_top span {

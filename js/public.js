@@ -26,11 +26,11 @@ $(function(){
            core(index);
         }
 
-         sid=setInterval(play, 4000);
+         sid=setInterval(play, 10000);
         $(' .banner').hover(function(){
             clearInterval(sid)
         },function(){
-           sid=setInterval(play, 4000);
+           sid=setInterval(play, 10000);
         })
         $('.num li').click(function(){
         	index=$(this).index();

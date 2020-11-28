@@ -1245,7 +1245,7 @@ h1 {
 
 .acade_list li {
 	float: left;
-	width: 100%;
+	width: 1200px;
 	margin-top: 44px;
 	height: auto;
 	margin-left: 72px;
@@ -1293,11 +1293,11 @@ h1 {
 }
 
 .aca_1{
-	width: 80%;
+	width: 1000px;
 }
 
 .aca_2{
-	width: 20%;
+	width: 200px;
 }
 
 .aca_name {
@@ -1338,7 +1338,6 @@ h1 {
 	color: #686868;
 	text-align: left;
 	margin-top: 3px;
-	height: 21px;
 	overflow: hidden;
 	left: 24px;
 	position: relative;
@@ -1924,4 +1923,9 @@ h1 {
 		width: 1200px;
 		height: 100%;
 	}
+}
+
+.video_career {
+	width: 100%;
+	height: 100%;
 }

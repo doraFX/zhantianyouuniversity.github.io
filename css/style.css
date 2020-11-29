@@ -1914,15 +1914,8 @@ h1 {
 }
 
 .video {
-	width: 1920px;
+	width: 100%;
 	height: 100%;
-}
-
-@media (max-width: 1200px) {
-	.video {
-		width: 1200px;
-		height: 100%;
-	}
 }
 
 .video_career {

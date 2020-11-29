@@ -1977,6 +1977,8 @@ h1 {
 	font-size: 16px;
 	padding-left: 14px;
 	line-height: 24px;
+	min-height: 250px;
+	max-height: 9999px;
 }
 
 .news_description p{

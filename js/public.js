@@ -14,6 +14,7 @@ $(function(){
         var sid=null;
         var index = 0;
         $('.bannerul li img').width(widths)
+		$('.bannerul li video').width(widths)
         function play() {
             index++;
             if (index == $('.bannerul li').length) {

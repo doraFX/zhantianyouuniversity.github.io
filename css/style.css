@@ -1108,7 +1108,7 @@ h1 {
 
 .curr_name {
 	float: left;
-	width: 300px;
+	width: 600px;
 }
 
 .curr_name span {
@@ -1129,7 +1129,7 @@ h1 {
 }
 
 .locat {
-	width: 300px;
+	width: 600px;
 	float: right;
 	text-align: right;
 	font-size: 12px;
@@ -1973,15 +1973,32 @@ h1 {
 	margin-bottom: 10px;
 }
 
+.news_detail h3:hover{
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 10px;
+	text-decoration:underline;
+}
+
 .news_description{
-	font-size: 16px;
 	padding-left: 14px;
 	line-height: 24px;
 	min-height: 250px;
 	max-height: 9999px;
+	color: #5d5d5d;
+}
+
+.news_description a{
+	color: #5d5d5d;
 }
 
 .news_description p{
-	margin-bottom: 10px;
-	font-size: 1rem;
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+.news_description p:hover{
+	margin-bottom: 12px;
+	font-size: 14px;
+	text-decoration:underline;
 }

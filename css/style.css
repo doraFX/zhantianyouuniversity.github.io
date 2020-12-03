@@ -2039,6 +2039,17 @@ h1 {
 	max-height: 9999px;
 }
 
+.overview_add {
+	font-size: 12px;
+	color: #8b8b8b;
+	text-align: center;
+	margin-top: 5px;
+	padding-top: 5px;
+	height: 21px;
+	overflow: hidden;
+	position: relative;
+}
+
 .overview_list {
 	width: 1200px;
 	margin: auto;
@@ -2107,5 +2118,28 @@ h1 {
 
 .overview_hotline a:hover {
 	background-color: #185C9E;
+	transition: 0.5s;
+}
+
+.overview_hotline_invalid{
+	width: 100px;
+	position: relative;
+	left: 50%;
+	margin-top: 30px;
+	margin-bottom: 16px;
+	transform: translateX(-47.5px);
+}
+
+.overview_hotline_invalid a{
+    font-size: 14px;
+    color: #ffffff;
+	text-align: center;
+    padding: 16px 20px;
+    position: relative;
+	background: #707070;
+}
+
+.overview_hotline_invalid a:hover {
+	background-color: #7f7f7f;
 	transition: 0.5s;
 }
